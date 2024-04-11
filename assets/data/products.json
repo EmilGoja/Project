@@ -1,0 +1,152 @@
+[
+    {
+        "id": 1,
+        "name": "Krups Evidence ECOdesign EA897B",
+        "category": "Appliances",
+        "image": "../assets/img/image-1.png",
+        "price": 420,
+        "stock": "Only 4 left in stock",
+        "review":3,
+        "tags":"best product"
+    },
+    {
+        "id": 2,
+        "name": "Philips PerfectCare Elite Plus GC9682/80 Steam Generator Iron",
+        "category": "Appliances",
+        "image": "../assets/img/image-2.png",
+        "price": 400,
+        "stock": "In Stock",
+        "review":3,
+        "tags":"best product"
+    },
+    {
+        "id": 3,
+        "name": "Keurig K-Duo Essentials Carafe Coffee Maker – Black",
+        "category": "Appliances",
+        "image": "../assets/img/image-3.png",
+        "price": 150,
+        "stock": "In Stock",
+        "review":3,
+        "tags":"best product"
+    },
+    {
+        "id": 4,
+        "name": "iRobot Roomba E6 (6199) Robot Vacuum",
+        "category": "Appliances",
+        "image": "../assets/img/image-4.png",
+        "price": 349.99,
+        "stock": "In Stock",
+        "review":3,
+        "tags":"best product"
+    },
+    {
+        "id": 5,
+        "name": "GORENJE Waschmaschine WHP74EPS Waschmaschine",
+        "category": "Appliances",
+        "image": "../assets/img/image-5.png",
+        "price": 549,
+        "stock": "In Stock",
+        "review":3,
+        "tags":"best product"
+    },
+    {
+        "id": 6,
+        "name": "WOLFANG GA420 Action Camera 4K 60FPS 24MP",
+        "category": "Camera&Photo",
+        "image": "../assets/img/image-6.png",
+        "price": 159.77,
+        "stock": "In Stock",
+        "review":3,
+        "tags":"best product"
+    },
+    {
+        "id": 7,
+        "name": "Sony A7 III Mirrorless Camera Body Only",
+        "category": "Camera&Photo",
+        "image": "../assets/img/image-7.png",
+        "price": 1450,
+        "stock": "Only 9 left in stock",
+        "review":3,
+        "tags":"best product"
+    },
+    {
+        "id": 8,
+        "name": "Panasonic Lumix DC-FZ80 18.1 Megapixel Bridge Camera",
+        "category": "Camera&Photo",
+        "image": "../assets/img/image-8.png",
+        "price": 654.99,
+        "stock": "In Stock",
+        "review":3,
+        "tags":"best product"
+    },
+    {
+        "id": 9,
+        "name": "FUJIFILM INSTAX MINI EVO Hybrid Instant Camera – Black",
+        "category": "Camera&Photo",
+        "image": "../assets/img/image-9.png",
+        "price": 109.95,
+        "stock": "In Stock",
+        "review":3,
+        "tags":"best product"
+    },
+    {
+        "id": 10,
+        "name": "FUJIFILM INSTAX MINI 12 Instant Film Camera – Blue",
+        "category": "Camera&Photo",
+        "image": "../assets/img/image-10.png",
+        "price": 55.80,
+        "stock": "In Stock",
+        "review":3,
+        "tags":"best product"
+    },
+    {
+        "id": 11,
+        "name": "2021 Apple 12.9-inch iPad Pro Wi-Fi 512GB",
+        "category": "Laptops&Computers",
+        "image": "../assets/img/image-11.png",
+        "price": 1212.00,
+        "stock": "Only 4 left in stock",
+        "review":3,
+        "tags":"best product"
+    },
+    {
+        "id": 12,
+        "name": "Razer Basilisk X HyperSpeed Wireless Gaming Mouse for PC",
+        "category": "Laptops&Computers",
+        "image": "../assets/img/image-12.png",
+        "price": 32.00,
+        "stock": "In Stock",
+        "review":3,
+        "tags":"best product"
+    },
+    {
+        "id": 13,
+        "name": "Zenbook 14 OLED (UX3402)｜Laptops For Home – ASUS",
+        "category": "Laptops&Computers",
+        "image": "../assets/img/image-13.png",
+        "price": 1050.99,
+        "stock": "In Stock",
+        "review":3,
+        "tags":"best product"
+    },
+    {
+        "id": 14,
+        "name": "SanDisk 1TB Extreme Portable External SSD – SDSSDE61",
+        "category": "Laptops&Computers",
+        "image": "../assets/img/image-14.png",
+        "price": 82.50,
+        "stock": "In Stock",
+        "review":3,
+        "tags":"best product"
+    },
+    {
+        "id": 15,
+        "name": "Samsung Galaxy Chromebook Go, 14″ HD LED, Intel Celeron N4500",
+        "category": "Laptops&Computers",
+        "image": "../assets/img/image-15.png",
+        "price": 190.39,
+        "stock": "In Stock",
+        "review":3,
+        "tags":"best product"
+    }
+]

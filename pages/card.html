@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul></ul>
+    <script>
+        fetch('https://fakestoreapi.com/products')
+        .then(res=>res.json())
+        .then(data=>{
+            let li ='';
+            data.map(item=>{
+                li += `<div id ="div-card"class="card" style="width: 18rem;">
+        <img src="${item.image}" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">${item.title}</h5>
+          <p class="card-text">${item.description}</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>`
+            })
+            document.querySelector('ul').innerHTML=li;
+        })
+    </script>
+</body>
+</html>

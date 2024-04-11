@@ -1,0 +1,226 @@
+@media screen and (min-width: 992px){
+    footer {
+        margin-top: 3.75rem;
+    }
+}
+@media screen and (max-width: 768px){
+    /* ########### menu button ############### */
+    .header-menu-button{
+        display: flex;
+    }
+    .main{
+        width: 90%;
+    }
+    /* .main{
+        max-width: 768px;
+    }
+    img{
+        max-width: 768px;
+    } */
+    .top-bar{
+        display: none;
+    }
+    .header-search-form{
+        display: none;
+    }
+
+
+    /* ##########3 */
+    .header-right{
+        display: none;
+    }
+    .header-bottom{
+        display: none;
+    }
+
+    /* ###### swiper ###### */
+    .swiper-button-next, .swiper-button-prev{
+        display: none !important;
+    }
+    .slider .swiper{
+        height: 375px;
+    }
+    .slider .swiper-slide {
+        padding: 50px 0;
+        
+    }
+    .about .main {
+        flex-flow: column;
+    }
+    .discount .main{
+        flex-flow: column;
+        column-gap: 20px;
+    }
+    .sales .sales-txt{
+        flex-flow: column;
+    }
+    .sales-txt> div:first-child{
+        flex-flow: column;
+    }
+
+    .code-discount .main{
+        max-width: 100%;
+    }
+
+    /* ############ discount ######## */
+    .discount .main{
+        gap: 20px;
+    }
+    .discount .main a{
+        width: 100%;
+    }
+
+    /* ######## discount 2 ######3 */
+    .discount-2 .main{
+        flex-flow: column;
+        gap: 20px;
+    }
+    .discount-2 .main .discount-2-link {
+        width: 100%;
+    }
+
+    /* ######3 offer ######## */
+    .offers .main{
+        flex-flow: column;
+        /* max-width: 100%; */
+    }
+    .offers .main>div {
+        width: 100%;
+    }
+    .mid-offer img{
+        height: 320px;
+    }
+    /* ####### deals ###### */
+    .deals-box{
+        flex-flow: column;
+    }
+    .deals-box .div-25{
+        width: 100%;
+    }
+    .deals-box>div:nth-child(1), .deals-box>div:nth-child(3){
+        border: 0;
+    }
+
+    /* ###### product ######3 */
+    .product-category .main {
+        flex-flow: column;
+        gap: 20px;
+    }
+
+
+    /* ##### footer ###### */
+    .footer-top{
+        flex-flow: column;
+        gap: 20px;
+    }
+    .footer-top > div{
+        text-align: center;
+    }
+    .footer-row .main{
+        flex-flow: column;
+        gap: 50px;
+    }
+    .footer-bottom{
+        flex-flow: column;
+        width: 90%;
+        gap: 10px;
+    }
+    .footer-social{
+        flex-flow: column;
+        align-items: start;
+    }
+    .footer-download{
+        flex-flow: column;
+        align-items: start;
+    }
+    .footer-download > div{
+        display: flex;
+        flex-flow: row;
+    }
+    .footer-copyright .main{
+        flex-flow: column;
+        gap: 10px;
+    }
+    .footer-copyright .main > div:nth-child(2){
+        flex-flow: column;
+        gap: 10px;
+    }
+}
+
+/* ################################### PAGES ############################### */
+@media screen and (max-width: 768px){
+    /* contact */
+    .address .main{
+        flex-flow: column;
+        gap: 50px;
+    }
+    .contact .main{
+        flex-flow: column;
+    }
+    .contact>.main>div {
+        width: 100%;
+    }
+    .contact>.main>div:first-child {
+        border-right: 0;
+        padding-right: 0;
+    }
+    .contact>.main>div:nth-child(2) {
+        padding-left: 0;
+    }
+
+    /* about */
+    .about-txt h3{
+        font-size: 1.5rem;
+        padding-bottom: 20px;
+    }
+    .about-txt p{
+        font-size: 0.875rem;
+    }
+    .about-txt>.main>div:first-child {
+        width: 100%;
+    }
+    .about-txt>.main>div:nth-child(2) {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: auto;
+        gap: 20px;
+    }
+    .about-txt>.main>div:nth-child(2) > div:last-child{
+        grid-row:3;
+        grid-column: 1/span 2;
+    }
+    .about-1 .main> div:first-child{
+        flex-flow: column;
+        gap: 20px;
+    }
+    .about-1 .main>div:nth-child(1) img:nth-child(1) {
+        width: 100%;
+    }
+    .about-1 .main>div:nth-child(1) img:nth-child(2) {
+        width: 100%;
+    }
+    .about-1 .main> div:nth-child(2){
+        flex-flow: column;
+    }
+    .heading>div:first-child{
+        text-align: center;
+    }
+    .about-1-txt{
+        width: 100%;
+    }
+    .about-1 .main>div:nth-child(4) {
+        flex-flow: column;
+    }
+    .about-1 .main>div:nth-child(4) img {
+        width: 100%;
+    }
+    .about-1 .main>div:nth-child(4) div {
+        width: 100%;
+    }
+    .about-2 .heading{
+        flex-flow: column;
+    }
+    .heading>div:nth-child(3) {
+        width: 100%;
+    }
+}
